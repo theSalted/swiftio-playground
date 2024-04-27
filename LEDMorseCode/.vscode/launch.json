@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDMorseCode}",
+            "name": "Debug LEDMorseCode",
+            "program": "${workspaceFolder:LEDMorseCode}/.build/debug/LEDMorseCode",
+            "preLaunchTask": "swift: Build Debug LEDMorseCode"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDMorseCode}",
+            "name": "Release LEDMorseCode",
+            "program": "${workspaceFolder:LEDMorseCode}/.build/release/LEDMorseCode",
+            "preLaunchTask": "swift: Build Release LEDMorseCode"
+        }
+    ]
+}

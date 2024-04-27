@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LedBlinkWithTimer}",
+            "name": "Debug LedBlinkWithTimer",
+            "program": "${workspaceFolder:LedBlinkWithTimer}/.build/debug/LedBlinkWithTimer",
+            "preLaunchTask": "swift: Build Debug LedBlinkWithTimer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LedBlinkWithTimer}",
+            "name": "Release LedBlinkWithTimer",
+            "program": "${workspaceFolder:LedBlinkWithTimer}/.build/release/LedBlinkWithTimer",
+            "preLaunchTask": "swift: Build Release LedBlinkWithTimer"
+        }
+    ]
+}

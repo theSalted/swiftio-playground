@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:RGBLed}",
+      "name": "Debug RGBLed",
+      "program": "${workspaceFolder:RGBLed}/.build/debug/RGBLed",
+      "preLaunchTask": "swift: Build Debug RGBLed"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "args": [],
+      "cwd": "${workspaceFolder:RGBLed}",
+      "name": "Release RGBLed",
+      "program": "${workspaceFolder:RGBLed}/.build/release/RGBLed",
+      "preLaunchTask": "swift: Build Release RGBLed"
+    }
+  ]
+}
