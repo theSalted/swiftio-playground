@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDPatternChange}",
+            "name": "Debug LEDPatternChange",
+            "program": "${workspaceFolder:LEDPatternChange}/.build/debug/LEDPatternChange",
+            "preLaunchTask": "swift: Build Debug LEDPatternChange"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDPatternChange}",
+            "name": "Release LEDPatternChange",
+            "program": "${workspaceFolder:LEDPatternChange}/.build/release/LEDPatternChange",
+            "preLaunchTask": "swift: Build Release LEDPatternChange"
+        }
+    ]
+}

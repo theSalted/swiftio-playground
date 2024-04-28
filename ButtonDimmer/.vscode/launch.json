@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ButtonDimmer}",
+            "name": "Debug ButtonDimmer",
+            "program": "${workspaceFolder:ButtonDimmer}/.build/debug/ButtonDimmer",
+            "preLaunchTask": "swift: Build Debug ButtonDimmer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ButtonDimmer}",
+            "name": "Release ButtonDimmer",
+            "program": "${workspaceFolder:ButtonDimmer}/.build/release/ButtonDimmer",
+            "preLaunchTask": "swift: Build Release ButtonDimmer"
+        }
+    ]
+}

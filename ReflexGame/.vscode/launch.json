@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ReflexGame}",
+            "name": "Debug ReflexGame",
+            "program": "${workspaceFolder:ReflexGame}/.build/debug/ReflexGame",
+            "preLaunchTask": "swift: Build Debug ReflexGame"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ReflexGame}",
+            "name": "Release ReflexGame",
+            "program": "${workspaceFolder:ReflexGame}/.build/release/ReflexGame",
+            "preLaunchTask": "swift: Build Release ReflexGame"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PlayingScale}",
+            "name": "Debug PlayingScale",
+            "program": "${workspaceFolder:PlayingScale}/.build/debug/PlayingScale",
+            "preLaunchTask": "swift: Build Debug PlayingScale"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PlayingScale}",
+            "name": "Release PlayingScale",
+            "program": "${workspaceFolder:PlayingScale}/.build/release/PlayingScale",
+            "preLaunchTask": "swift: Build Release PlayingScale"
+        }
+    ]
+}

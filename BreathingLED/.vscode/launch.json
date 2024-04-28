@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:BreathingLED}",
+            "name": "Debug BreathingLED",
+            "program": "${workspaceFolder:BreathingLED}/.build/debug/BreathingLED",
+            "preLaunchTask": "swift: Build Debug BreathingLED"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:BreathingLED}",
+            "name": "Release BreathingLED",
+            "program": "${workspaceFolder:BreathingLED}/.build/release/BreathingLED",
+            "preLaunchTask": "swift: Build Release BreathingLED"
+        }
+    ]
+}
