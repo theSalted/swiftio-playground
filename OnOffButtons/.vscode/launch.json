@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:OnOffButtons}",
+            "name": "Debug OnOffButtons",
+            "program": "${workspaceFolder:OnOffButtons}/.build/debug/OnOffButtons",
+            "preLaunchTask": "swift: Build Debug OnOffButtons"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:OnOffButtons}",
+            "name": "Release OnOffButtons",
+            "program": "${workspaceFolder:OnOffButtons}/.build/release/OnOffButtons",
+            "preLaunchTask": "swift: Build Release OnOffButtons"
+        }
+    ]
+}

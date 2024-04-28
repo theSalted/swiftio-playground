@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:MomentaryLEDSwitch}",
+            "name": "Debug MomentaryLEDSwitch",
+            "program": "${workspaceFolder:MomentaryLEDSwitch}/.build/debug/MomentaryLEDSwitch",
+            "preLaunchTask": "swift: Build Debug MomentaryLEDSwitch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:MomentaryLEDSwitch}",
+            "name": "Release MomentaryLEDSwitch",
+            "program": "${workspaceFolder:MomentaryLEDSwitch}/.build/release/MomentaryLEDSwitch",
+            "preLaunchTask": "swift: Build Release MomentaryLEDSwitch"
+        }
+    ]
+}

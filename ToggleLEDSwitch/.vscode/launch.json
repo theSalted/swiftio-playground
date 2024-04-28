@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ToggleLEDSwitch}",
+            "name": "Debug ToggleLEDSwitch",
+            "program": "${workspaceFolder:ToggleLEDSwitch}/.build/debug/ToggleLEDSwitch",
+            "preLaunchTask": "swift: Build Debug ToggleLEDSwitch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ToggleLEDSwitch}",
+            "name": "Release ToggleLEDSwitch",
+            "program": "${workspaceFolder:ToggleLEDSwitch}/.build/release/ToggleLEDSwitch",
+            "preLaunchTask": "swift: Build Release ToggleLEDSwitch"
+        }
+    ]
+}

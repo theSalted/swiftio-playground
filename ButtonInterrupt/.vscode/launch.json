@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ButtonToggle}",
+            "name": "Debug ButtonToggle",
+            "program": "${workspaceFolder:ButtonToggle}/.build/debug/ButtonToggle",
+            "preLaunchTask": "swift: Build Debug ButtonToggle"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ButtonToggle}",
+            "name": "Release ButtonToggle",
+            "program": "${workspaceFolder:ButtonToggle}/.build/release/ButtonToggle",
+            "preLaunchTask": "swift: Build Release ButtonToggle"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ButtonToggle}",
+            "name": "Debug ButtonInterrupt",
+            "program": "${workspaceFolder:ButtonToggle}/.build/debug/ButtonInterrupt",
+            "preLaunchTask": "swift: Build Debug ButtonInterrupt"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ButtonToggle}",
+            "name": "Release ButtonInterrupt",
+            "program": "${workspaceFolder:ButtonToggle}/.build/release/ButtonInterrupt",
+            "preLaunchTask": "swift: Build Release ButtonInterrupt"
+        }
+    ]
+}

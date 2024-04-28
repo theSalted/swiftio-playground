@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:TwoWayLEDSwitch}",
+            "name": "Debug TwoWayLEDSwitch",
+            "program": "${workspaceFolder:TwoWayLEDSwitch}/.build/debug/TwoWayLEDSwitch",
+            "preLaunchTask": "swift: Build Debug TwoWayLEDSwitch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:TwoWayLEDSwitch}",
+            "name": "Release TwoWayLEDSwitch",
+            "program": "${workspaceFolder:TwoWayLEDSwitch}/.build/release/TwoWayLEDSwitch",
+            "preLaunchTask": "swift: Build Release TwoWayLEDSwitch"
+        }
+    ]
+}
