@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDDimmer}",
+            "name": "Debug LEDDimmer",
+            "program": "${workspaceFolder:LEDDimmer}/.build/debug/LEDDimmer",
+            "preLaunchTask": "swift: Build Debug LEDDimmer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDDimmer}",
+            "name": "Release LEDDimmer",
+            "program": "${workspaceFolder:LEDDimmer}/.build/release/LEDDimmer",
+            "preLaunchTask": "swift: Build Release LEDDimmer"
+        }
+    ]
+}

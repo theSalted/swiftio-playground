@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDBlinkControl}",
+            "name": "Debug LEDBlinkControl",
+            "program": "${workspaceFolder:LEDBlinkControl}/.build/debug/LEDBlinkControl",
+            "preLaunchTask": "swift: Build Debug LEDBlinkControl"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LEDBlinkControl}",
+            "name": "Release LEDBlinkControl",
+            "program": "${workspaceFolder:LEDBlinkControl}/.build/release/LEDBlinkControl",
+            "preLaunchTask": "swift: Build Release LEDBlinkControl"
+        }
+    ]
+}

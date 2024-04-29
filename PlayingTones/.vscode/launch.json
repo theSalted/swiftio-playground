@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PlayingTones}",
+            "name": "Debug PlayingTones",
+            "program": "${workspaceFolder:PlayingTones}/.build/debug/PlayingTones",
+            "preLaunchTask": "swift: Build Debug PlayingTones"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PlayingTones}",
+            "name": "Release PlayingTones",
+            "program": "${workspaceFolder:PlayingTones}/.build/release/PlayingTones",
+            "preLaunchTask": "swift: Build Release PlayingTones"
+        }
+    ]
+}

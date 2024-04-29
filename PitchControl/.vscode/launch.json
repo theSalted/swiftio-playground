@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PitchControl}",
+            "name": "Debug PitchControl",
+            "program": "${workspaceFolder:PitchControl}/.build/debug/PitchControl",
+            "preLaunchTask": "swift: Build Debug PitchControl"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PitchControl}",
+            "name": "Release PitchControl",
+            "program": "${workspaceFolder:PitchControl}/.build/release/PitchControl",
+            "preLaunchTask": "swift: Build Release PitchControl"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DoubleLEDDimmer}",
+            "name": "Debug DoubleLEDDimmer",
+            "program": "${workspaceFolder:DoubleLEDDimmer}/.build/debug/DoubleLEDDimmer",
+            "preLaunchTask": "swift: Build Debug DoubleLEDDimmer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DoubleLEDDimmer}",
+            "name": "Release DoubleLEDDimmer",
+            "program": "${workspaceFolder:DoubleLEDDimmer}/.build/release/DoubleLEDDimmer",
+            "preLaunchTask": "swift: Build Release DoubleLEDDimmer"
+        }
+    ]
+}

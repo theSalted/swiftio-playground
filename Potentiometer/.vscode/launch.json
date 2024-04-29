@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Potentiometer}",
+            "name": "Debug Potentiometer",
+            "program": "${workspaceFolder:Potentiometer}/.build/debug/Potentiometer",
+            "preLaunchTask": "swift: Build Debug Potentiometer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Potentiometer}",
+            "name": "Release Potentiometer",
+            "program": "${workspaceFolder:Potentiometer}/.build/release/Potentiometer",
+            "preLaunchTask": "swift: Build Release Potentiometer"
+        }
+    ]
+}
