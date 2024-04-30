@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AverageTemperature}",
+            "name": "Debug AverageTemperature",
+            "program": "${workspaceFolder:AverageTemperature}/.build/debug/AverageTemperature",
+            "preLaunchTask": "swift: Build Debug AverageTemperature"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AverageTemperature}",
+            "name": "Release AverageTemperature",
+            "program": "${workspaceFolder:AverageTemperature}/.build/release/AverageTemperature",
+            "preLaunchTask": "swift: Build Release AverageTemperature"
+        }
+    ]
+}

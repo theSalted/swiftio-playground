@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Humiture}",
+            "name": "Debug Humiture",
+            "program": "${workspaceFolder:Humiture}/.build/debug/Humiture",
+            "preLaunchTask": "swift: Build Debug Humiture"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Humiture}",
+            "name": "Release Humiture",
+            "program": "${workspaceFolder:Humiture}/.build/release/Humiture",
+            "preLaunchTask": "swift: Build Release Humiture"
+        }
+    ]
+}
