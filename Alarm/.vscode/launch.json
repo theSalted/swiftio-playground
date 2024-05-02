@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Alarm}",
+            "name": "Debug Alarm",
+            "program": "${workspaceFolder:Alarm}/.build/debug/Alarm",
+            "preLaunchTask": "swift: Build Debug Alarm"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Alarm}",
+            "name": "Release Alarm",
+            "program": "${workspaceFolder:Alarm}/.build/release/Alarm",
+            "preLaunchTask": "swift: Build Release Alarm"
+        }
+    ]
+}

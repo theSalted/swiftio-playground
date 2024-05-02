@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ReadingTime}",
+            "name": "Debug ReadingTime",
+            "program": "${workspaceFolder:ReadingTime}/.build/debug/ReadingTime",
+            "preLaunchTask": "swift: Build Debug ReadingTime"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ReadingTime}",
+            "name": "Release ReadingTime",
+            "program": "${workspaceFolder:ReadingTime}/.build/release/ReadingTime",
+            "preLaunchTask": "swift: Build Release ReadingTime"
+        }
+    ]
+}
