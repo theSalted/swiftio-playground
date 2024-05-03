@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AccelerometerDice}",
+            "name": "Debug AccelerometerDice",
+            "program": "${workspaceFolder:AccelerometerDice}/.build/debug/AccelerometerDice",
+            "preLaunchTask": "swift: Build Debug AccelerometerDice"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AccelerometerDice}",
+            "name": "Release AccelerometerDice",
+            "program": "${workspaceFolder:AccelerometerDice}/.build/release/AccelerometerDice",
+            "preLaunchTask": "swift: Build Release AccelerometerDice"
+        }
+    ]
+}

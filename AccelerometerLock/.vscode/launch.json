@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AccelerometerLock}",
+            "name": "Debug AccelerometerLock",
+            "program": "${workspaceFolder:AccelerometerLock}/.build/debug/AccelerometerLock",
+            "preLaunchTask": "swift: Build Debug AccelerometerLock"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AccelerometerLock}",
+            "name": "Release AccelerometerLock",
+            "program": "${workspaceFolder:AccelerometerLock}/.build/release/AccelerometerLock",
+            "preLaunchTask": "swift: Build Release AccelerometerLock"
+        }
+    ]
+}

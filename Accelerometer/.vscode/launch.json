@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Accelerometer}",
+            "name": "Debug Accelerometer",
+            "program": "${workspaceFolder:Accelerometer}/.build/debug/Accelerometer",
+            "preLaunchTask": "swift: Build Debug Accelerometer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Accelerometer}",
+            "name": "Release Accelerometer",
+            "program": "${workspaceFolder:Accelerometer}/.build/release/Accelerometer",
+            "preLaunchTask": "swift: Build Release Accelerometer"
+        }
+    ]
+}
