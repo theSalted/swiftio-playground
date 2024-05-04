@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AccelerationVisualizer}",
+            "name": "Debug AccelerationVisualizer",
+            "program": "${workspaceFolder:AccelerationVisualizer}/.build/debug/AccelerationVisualizer",
+            "preLaunchTask": "swift: Build Debug AccelerationVisualizer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AccelerationVisualizer}",
+            "name": "Release AccelerationVisualizer",
+            "program": "${workspaceFolder:AccelerationVisualizer}/.build/release/AccelerationVisualizer",
+            "preLaunchTask": "swift: Build Release AccelerationVisualizer"
+        }
+    ]
+}

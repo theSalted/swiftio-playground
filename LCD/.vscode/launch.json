@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LCD}",
+            "name": "Debug LCD",
+            "program": "${workspaceFolder:LCD}/.build/debug/LCD",
+            "preLaunchTask": "swift: Build Debug LCD"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:LCD}",
+            "name": "Release LCD",
+            "program": "${workspaceFolder:LCD}/.build/release/LCD",
+            "preLaunchTask": "swift: Build Release LCD"
+        }
+    ]
+}

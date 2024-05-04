@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AnalogVisualizer}",
+            "name": "Debug AnalogVisualizer",
+            "program": "${workspaceFolder:AnalogVisualizer}/.build/debug/AnalogVisualizer",
+            "preLaunchTask": "swift: Build Debug AnalogVisualizer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:AnalogVisualizer}",
+            "name": "Release AnalogVisualizer",
+            "program": "${workspaceFolder:AnalogVisualizer}/.build/release/AnalogVisualizer",
+            "preLaunchTask": "swift: Build Release AnalogVisualizer"
+        }
+    ]
+}

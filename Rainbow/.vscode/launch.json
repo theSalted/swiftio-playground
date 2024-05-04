@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Rainbow}",
+            "name": "Debug Rainbow",
+            "program": "${workspaceFolder:Rainbow}/.build/debug/Rainbow",
+            "preLaunchTask": "swift: Build Debug Rainbow"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Rainbow}",
+            "name": "Release Rainbow",
+            "program": "${workspaceFolder:Rainbow}/.build/release/Rainbow",
+            "preLaunchTask": "swift: Build Release Rainbow"
+        }
+    ]
+}

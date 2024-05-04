@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ScrollEffect}",
+            "name": "Debug ScrollEffect",
+            "program": "${workspaceFolder:ScrollEffect}/.build/debug/ScrollEffect",
+            "preLaunchTask": "swift: Build Debug ScrollEffect"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ScrollEffect}",
+            "name": "Release ScrollEffect",
+            "program": "${workspaceFolder:ScrollEffect}/.build/release/ScrollEffect",
+            "preLaunchTask": "swift: Build Release ScrollEffect"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ScrollEffect}",
+            "name": "Debug Rainbow",
+            "program": "${workspaceFolder:ScrollEffect}/.build/debug/Rainbow",
+            "preLaunchTask": "swift: Build Debug Rainbow"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:ScrollEffect}",
+            "name": "Release Rainbow",
+            "program": "${workspaceFolder:ScrollEffect}/.build/release/Rainbow",
+            "preLaunchTask": "swift: Build Release Rainbow"
+        }
+    ]
+}
