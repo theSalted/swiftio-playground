@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Speaker}",
+            "name": "Debug Speaker",
+            "program": "${workspaceFolder:Speaker}/.build/debug/Speaker",
+            "preLaunchTask": "swift: Build Debug Speaker"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Speaker}",
+            "name": "Release Speaker",
+            "program": "${workspaceFolder:Speaker}/.build/release/Speaker",
+            "preLaunchTask": "swift: Build Release Speaker"
+        }
+    ]
+}

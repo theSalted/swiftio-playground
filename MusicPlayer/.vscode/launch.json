@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:MusicPlayer}",
+            "name": "Debug MusicPlayer",
+            "program": "${workspaceFolder:MusicPlayer}/.build/debug/MusicPlayer",
+            "preLaunchTask": "swift: Build Debug MusicPlayer"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:MusicPlayer}",
+            "name": "Release MusicPlayer",
+            "program": "${workspaceFolder:MusicPlayer}/.build/release/MusicPlayer",
+            "preLaunchTask": "swift: Build Release MusicPlayer"
+        }
+    ]
+}
