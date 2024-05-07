@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SerialLEDSwitch}",
+            "name": "Debug SerialLEDSwitch",
+            "program": "${workspaceFolder:SerialLEDSwitch}/.build/debug/SerialLEDSwitch",
+            "preLaunchTask": "swift: Build Debug SerialLEDSwitch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SerialLEDSwitch}",
+            "name": "Release SerialLEDSwitch",
+            "program": "${workspaceFolder:SerialLEDSwitch}/.build/release/SerialLEDSwitch",
+            "preLaunchTask": "swift: Build Release SerialLEDSwitch"
+        }
+    ]
+}

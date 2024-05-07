@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SerialEcho}",
+            "name": "Debug SerialEcho",
+            "program": "${workspaceFolder:SerialEcho}/.build/debug/SerialEcho",
+            "preLaunchTask": "swift: Build Debug SerialEcho"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SerialEcho}",
+            "name": "Release SerialEcho",
+            "program": "${workspaceFolder:SerialEcho}/.build/release/SerialEcho",
+            "preLaunchTask": "swift: Build Release SerialEcho"
+        }
+    ]
+}
