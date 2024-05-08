@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:JoiningWiFi}",
+            "name": "Debug JoiningWiFi",
+            "program": "${workspaceFolder:JoiningWiFi}/.build/debug/JoiningWiFi",
+            "preLaunchTask": "swift: Build Debug JoiningWiFi"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:JoiningWiFi}",
+            "name": "Release JoiningWiFi",
+            "program": "${workspaceFolder:JoiningWiFi}/.build/release/JoiningWiFi",
+            "preLaunchTask": "swift: Build Release JoiningWiFi"
+        }
+    ]
+}
